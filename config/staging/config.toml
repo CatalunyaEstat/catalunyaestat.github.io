@@ -1,0 +1,23 @@
+baseURL = 'https://catalunyaestat.github.io/'
+languageCode = 'es-ca'
+title = 'CatalunyaEstat'
+
+[module]
+
+  #
+  # Theme
+  #
+  [[module.imports]]
+    path = "github.com/CatalunyaEstat/catalunyaestat-theme"
+    disable = false
+
+  #
+  # Theme Mounts
+  #  
+  [[module.mounts]]
+    source = "node_modules"
+    target = "assets/node_modules"
+
+  [[module.mounts]]
+    source = "node_modules/admin-lte/plugins/fontawesome-free/webfonts"
+    target = "static/node_modules/admin-lte/plugins/fontawesome-free/webfonts"  

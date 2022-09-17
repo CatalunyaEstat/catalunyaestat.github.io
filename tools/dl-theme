@@ -1,0 +1,8 @@
+#!/bin/sh
+
+pushd .
+
+# Download Theme
+git clone https://github.com/CatalunyaEstat/catalunyaestat-theme.git themes/catalunyaestat-theme
+
+popd

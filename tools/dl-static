@@ -1,0 +1,8 @@
+#!/bin/sh
+
+pushd .
+
+# Download Static
+git clone --recurse-submodules https://github.com/CatalunyaEstat/catalunyaestat-static.git static/static
+
+popd
